@@ -18,7 +18,7 @@ sleep 1
 # Turn On: A0 01 01 A2
 # Turn Off: A0 01 00 A1
 
-usbRelayPath=/dev/cu.usbserial-3140
+usbRelayPath=/dev/cu.usbserial-1140
 usbRelayOn='\xA0\x01\x01\xA2'
 usbRelayOff='\xA0\x01\x00\xA1'
 echo -en $usbRelayOn > $usbRelayPath
